@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* Estilos gerais do corpo */
+body {
+    background-color: rgb(103, 14, 186);
+    background: linear-gradient(to right, #c079d0, rgb(96, 12, 175));
+    color: white;
+    font-family: "Chakra Petch", sans-serif; 
+}
+
+/* Estilo do título principal */
+h1 {
+    font-size: 2.5rem; 
+}
+
+/* Margem do título dentro do cabeçalho */
+header div div h1 {
+    margin: 20px;
+}
+
+/* Estilo dos cartões */
+div .card {
+    background-color: rgb(46, 1, 88);
+    background: linear-gradient(to left, rgb(46, 1, 88), rgb(169, 33, 165));
+    width: 25rem;
+    height: 25rem;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    align-content: center;
+    align-self: center;
+}
+
+/* Estilo dos botões */
+section button {
+    border: none; 
+    border-radius: 1.5rem; 
+    background-color: rgb(103, 14, 186);
+    background: linear-gradient(rgb(161, 1, 182), rgb(2, 70, 160));
+    color: #F5F7F8; 
+    font-size: 1.3rem; 
+    cursor: pointer; 
+    align-self: center;
+}
+
+/* Estilo dos botões ao passar o mouse */
+section button:hover {
+    background-color: #a30f3e; /* Muda a cor de fundo ao passar o mouse */
+    background: linear-gradient(#a30f3e, rgb(216, 104, 205));
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais intensa */
+}
+
+/* Estilo dos inputs */
+section input {
+    width: 23rem; /* Largura dos inputs */
+    border: none; /* Remove a borda padrão */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 1.5rem; /* Borda arredondada */
+    margin-bottom: 1.2rem; 
+    color: #45474B; /* Cor do texto */
+    font-size: 1rem; /* Tamanho da fonte */
+    box-sizing: border-box; 
+}
+
+/* Largura da seção de lista */
+#lista {
+    width: 33rem;
+}
+
+/* Estilo das células da tabela */
+td {
+    max-width: 1.2rem; 
+    max-height: 0px; 
+    text-overflow: ellipsis; 
+    overflow: hidden;
+    word-break: break-all;
+    white-space: nowrap;
+}
+
+/* Largura do cartão de opções */
+#optioncard {
+    width: 20rem;
+}
+
+/* Margem esquerda da seção de cadastro */
+#cadastro {
+    margin-left: 15rem;
+}
+
+/* Estilo dos botões pequenos */
+.pequeno {
+    border: none; 
+    border-radius: 1.5rem; 
+    background-color: rgb(103, 14, 186);
+    background: linear-gradient(rgb(161, 1, 182), rgb(2, 70, 160));
+    color: #F5F7F8; 
+    font-size: 1rem; 
+    cursor: pointer; 
+    align-self: center;
+}
+
+/* Margem superior do rodapé */
+footer {
+    margin-top: 20rem;
+}
+
+/* Margem superior do conteúdo principal */
+main {
+    margin-top: 5rem;
+}
