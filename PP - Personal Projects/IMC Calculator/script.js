@@ -67,11 +67,27 @@ function adicionar() {
             td.append(status);
         }
         if (i == 5) {
-            td.innerHTML = `
-                <button onclick="alterarPeso(this, 0.5)">+</button>
-                <button onclick="alterarPeso(this, -0.5)">-</button>
-                <button onclick="excluir(this)">Del</button>
-            `;
+            let btnMais = document.createElement("button");
+            btnMais.textContent = "+";
+            btnMais.addEventListener("click", function() {
+                alterarPeso(this, 0.5);
+            });
+
+            let btnMenos = document.createElement("button");
+            btnMenos.textContent = "-";
+            btnMenos.addEventListener("click", function() {
+                alterarPeso(this, -0.5);
+            });
+
+            let btnDel = document.createElement("button");
+            btnDel.textContent = "Del";
+            btnDel.addEventListener("click", function() {
+                excluir(this);
+            });
+
+            td.appendChild(btnMais);
+            td.appendChild(btnMenos);
+            td.appendChild(btnDel);
         }
         tr.appendChild(td);
     }
